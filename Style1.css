@@ -1,0 +1,248 @@
+
+.contato-paragrafo {
+
+    padding: 2% 0% 2% 80%;
+    color: white;
+    font-weight: bold;
+}
+
+.projetos-titulo2 {
+
+    padding: 0% 0% 2% 1.5%;
+}
+
+.projetos-bloco {
+
+    border: solid;
+    border-width: 3px;
+}
+
+#body-darkMode {
+
+    background-color: rgb(240, 250, 255);
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+}
+
+.contato-texto {
+
+    padding: 2% 0%;
+}
+
+#projetos-paragrafo {
+
+    margin: 3% 2% 4% 1%;
+}
+
+ #habilidades, #projetos, #sobre, #contato {
+
+    padding: 1.2% 2.3% 1.4% 2.3%;
+ }
+
+.menu {
+
+    height: 1%;
+    width: 76%;
+    margin-top: 1%;
+    position: fixed;
+}
+
+ .menu-lista {
+   
+   display: inline-block;
+ }
+
+ .portfólio-caixa {
+
+    display: inline-block;
+    margin: 1% 0% 1% 3%;
+ }
+
+ .menu-lista-item:hover {
+
+    color: black;
+    transition: 0.5s;
+ }
+
+.menu-lista-item {
+
+    color: green;
+}
+
+.portfólio-caixa-item {
+
+    color: green;
+    display: inline-block;
+    margin: 0% 0% 20% -5%;
+}
+
+#projetos, #sobre, #contato {
+
+    border: 2.8px solid rgb(0, 191, 255);
+}
+
+.habilidades-itens-barra {
+   
+    display: block; 
+    width: 80%;
+    padding-rigth: 1%;
+}
+
+.habilidades-itens:hover {
+
+    font-size: 120%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.efeito {
+
+    font-size: 21.5px;
+}
+
+.efeito:hover {
+   
+    transition: 0.25s;
+    cursor: pointer;
+    color: green;
+}
+
+#contato {
+   
+    background-image: url(imagemDeFundo1.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.contato-titulo {
+
+    padding: 0% 0% 0% 0%;
+}
+
+#contato-icone, .contato-texto {
+   
+    font-size: 118%;
+}
+
+#botão-especial {
+
+    margin-left: 59%;
+}
+
+.projetos-botão {
+
+    margin: 0% 0% 0% 74%;
+    color: rgb(108, 190, 90);
+}
+
+.projetos-botão:hover {
+
+    color: blue;
+    transition: 0.4s;
+}
+
+#contato-icone {
+
+    padding: 0% 0.4%;
+    font-size: 127%;
+}
+
+#contato-icone:hover {
+   
+    cursor: pointer;
+    font-size: 150%;
+    transition: 0.6s;
+}
+
+.primeira-div {
+   
+    background: url(ImagemDeFundo1.jpg);
+    background-position: 40% 40%;
+    background-repeat: no-repeat;
+    padding: 1% 2% 0% 0%;
+    border: solid 3.6px rgb(0, 191, 255)
+}
+
+#habilidades {
+   
+    height: 90%;
+    width: 80%;
+    font-size: 90%;
+}
+
+.habilidades-itens {
+   
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaques {
+   
+    color: green;
+}
+
+.destaques:hover {
+   
+    color: lightblue;
+    cursor: pointer;
+}
+
+#dark-mode {
+   
+    margin: 1% 45% 1% 45%;
+    display: inline;
+    font-size: 110%;
+}
+
+#dark-mode:hover {
+
+    color: yellow;
+    cursor: pointer;
+    transition: 0.53s;
+}
+
+.projetos-imagem {
+   
+    width: 80px;
+    height: 90px;
+    display: inline-flex;
+    padding: 1px 15px 8px 12px;
+    float: left;
+}
+
+.imagem-sobre {
+  
+   width: 210px;
+   height: 200px;
+   padding: 0% 1.6% 2% 0%;
+   float: left;
+}
+
+.imagem-sobre:hover {
+
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+h2 {
+
+    font-size: 35px;
+}
+
+span {
+    
+    font-weight: bold;
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+p {
+   
+    font-size: 20.76px;
+}
