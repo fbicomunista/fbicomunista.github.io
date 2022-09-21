@@ -1,23 +1,28 @@
+ 
+ a {
+    
+    text-decoration: none;
+}
 
-.contato-paragrafo {
+ .contato-paragrafo {
 
     padding: 2% 0% 2% 80%;
     color: white;
     font-weight: bold;
 }
 
-.projetos-titulo2 {
+ .projetos-bloco-item {
 
     padding: 0% 0% 2% 1.5%;
 }
 
-.projetos-bloco {
+ .projetos-bloco {
 
     border: solid;
     border-width: 3px;
 }
 
-#body-darkMode {
+  #body-darkMode {
 
     background-color: rgb(240, 250, 255);
     visibility: visible;
@@ -25,224 +30,233 @@
     transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;
 }
 
-.contato-texto {
+  .contato-texto {
 
     padding: 2% 0%;
 }
 
-#projetos-paragrafo {
+  #projetos-paragrafo {
 
     margin: 3% 2% 4% 1%;
 }
 
- #habilidades, #projetos, #sobre, #contato {
+  #habilidades, #projetos, #sobre, #contato {
 
     padding: 1.2% 2.3% 1.4% 2.3%;
  }
+ 
+  .menu {
+ 
+     position: fixed;
+ }
+ 
+  .fólio1 {
+ 
+ 	font-size: 27px;
+ 	margin: 5% 0% 8% 2%; 		
+ 	}
 
-.menu {
-
-    height: 1%;
-    width: 76%;
-    margin-top: 1%;
-    position: fixed;
+  .fólio2 {
+	
+	margin: 5% 0% 2% -1%;
+	font-size: 27px;
+	color: lightgreen;
 }
 
- .menu-lista {
-   
-   display: inline-block;
- }
+  .portfólio-background {  
+  
+    background-color: green;
+    position: fixed;
+    padding-top: 0.7%;
+    width: 100%;
+    height: 4.3%;   
+    }
 
- .portfólio-caixa {
+  .portfólio-background-navegator-item:hover {
 
-    display: inline-block;
-    margin: 1% 0% 1% 3%;
- }
-
- .menu-lista-item:hover {
-
-    color: black;
+    color: #0786f8;
     transition: 0.5s;
  }
 
-.menu-lista-item {
+ .portfólio-background-navegator-item {
 
-    color: green;
+    color: black;
+    margin: 1% 0% 1% 0%;
+	font-size: 23.0px;
+    padding-left: 10%;
 }
 
-.portfólio-caixa-item {
-
-    color: green;
-    display: inline-block;
-    margin: 0% 0% 20% -5%;
+.portfólio-background-navegator {
+	
+	display: inline-flex;
+	margin-left: 10%%;
+	
+	
 }
 
-#projetos, #sobre, #contato {
+ #projetos, #sobre, #contato {
 
     border: 2.8px solid rgb(0, 191, 255);
 }
 
-.habilidades-itens-barra {
+ .habilidades-itens-barra {
    
     display: block; 
     width: 80%;
     padding-rigth: 1%;
 }
 
-.habilidades-itens:hover {
+ .habilidades-itens:hover {
 
     font-size: 120%;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.efeito {
+ .efeito {
 
     font-size: 21.5px;
 }
 
-.efeito:hover {
+ .efeito:hover {
    
     transition: 0.25s;
     cursor: pointer;
     color: green;
 }
 
-#contato {
+ #contato {
    
-    background-image: url(ImagemDeFundo1.jpg);
+    background-image: url(imagemDeFundo1.jpg);
     background-repeat: no-repeat;
     color: white;
 }
 
-.contato-titulo {
+ .contato-titulo {
 
     padding: 0% 0% 0% 0%;
 }
 
-#contato-icone, .contato-texto {
+ #contato-icone, .contato-texto {
    
     font-size: 118%;
 }
 
-#botão-especial {
+ #botão-especial {
 
     margin-left: 59%;
 }
 
-.projetos-botão {
+ .projetos-botão {
 
     margin: 0% 0% 0% 74%;
     color: rgb(108, 190, 90);
+    border: 4px thin black;
 }
 
-.projetos-botão:hover {
+ .projetos-botão:hover {
 
     color: blue;
     transition: 0.4s;
 }
 
-#contato-icone {
+ #contato-icone {
 
     padding: 0% 0.4%;
     font-size: 127%;
 }
 
-#contato-icone:hover {
+ #contato-icone:hover {
    
     cursor: pointer;
     font-size: 150%;
     transition: 0.6s;
 }
 
-.primeira-div {
+ .primeira-div {
    
     background: url(ImagemDeFundo1.jpg);
     background-position: 40% 40%;
     background-repeat: no-repeat;
-    padding: 1% 2% 0% 0%;
-    border: solid 3.6px rgb(0, 191, 255)
+    border: solid 3.6px rgb(0, 191, 255);
 }
 
-#habilidades {
+ #habilidades {
    
     height: 90%;
     width: 80%;
     font-size: 90%;
 }
 
-.habilidades-itens {
+ .habilidades-itens {
    
     font-size: 25px;
     align-items: center;
     justify-content: center;
 }
 
-.destaques {
+ .destaques {
    
     color: green;
 }
 
-.destaques:hover {
+ .destaques:hover {
    
     color: lightblue;
     cursor: pointer;
 }
 
-#dark-mode {
+ #dark-mode {
    
     margin: 1% 45% 1% 45%;
     display: inline;
     font-size: 110%;
 }
 
-#dark-mode:hover {
+ #dark-mode:hover {
 
     color: yellow;
     cursor: pointer;
     transition: 0.53s;
 }
 
-.projetos-imagem {
+ .projetos-bloco-imagem {
    
-    width: 80px;
+    width: 90px;
     height: 90px;
     display: inline-flex;
     padding: 1px 15px 8px 12px;
     float: left;
 }
 
-.imagem-sobre {
+ .imagem-sobre {
   
-   width: 210px;
-   height: 200px;
-   padding: 0% 1.6% 2% 0%;
+   display: inline-block;
+   width: 220px;
+   height: 215px;
+   padding: 0% 1.6% 0% 0%;
    float: left;
 }
 
-.imagem-sobre:hover {
+ .imagem-sobre:hover {
 
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
-h2 {
+ h2 {
 
     font-size: 35px;
 }
 
-span {
+ span {
     
     font-weight: bold;
 }
 
-a {
-    
-    text-decoration: none;
-}
 
-p {
+ p {
    
     font-size: 20.76px;
 }
