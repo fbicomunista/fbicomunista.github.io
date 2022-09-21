@@ -125,7 +125,7 @@
 
  #contato {
    
-    background-image: url(imagemDeFundo3.jpg);
+    background-image: url(./imagemDeFundo3.jpg);
     background-repeat: no-repeat;
     color: white;
 }
@@ -229,7 +229,7 @@
 
  .imagem-sobre {
   
-   background: url(ImagemRosto.jpg)	  
+   background: url(./ImagemRosto.jpg)	  
    display: inline-block;
    width: 220px;
    height: 215px;
