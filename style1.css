@@ -17,18 +17,6 @@
     margin-left: 59%;
 }
 
-.contato-texto {
-
-    padding: 2% 0%;
-}
-
- .contato-paragrafo {
-
-    padding: 2% 0% 2% 80%;
-    color: white;
-    font-weight: bold;
-}
-
  #contato {
    
     background-image: url(ImagemDeFundo3.jpg);
@@ -36,12 +24,7 @@
     color: white;
 }
 
- .contato-titulo {
-
-    padding: 0% 0% 0% 0%;
-}
-
- #contato-icone, .contato-texto {
+#contato-icone, .contato-texto {
    
     font-size: 118%;
 }
@@ -59,18 +42,24 @@
     transition: 0.6s;
 }
 
-.destaques {
-   
-    color: green;
+.contato-texto {
+
+    padding: 2% 0%;
 }
 
- .destaques:hover {
-   
-    color: lightblue;
-    cursor: pointer;
+.contato-titulo {
+
+    padding: 0% 0% 0% 0%;
 }
 
- #dark-mode {
+ .contato-paragrafo {
+
+    padding: 2% 0% 2% 80%;
+    color: white;
+    font-weight: bold;
+}
+
+#dark-mode {
    
     margin: 1% 45% 1% 45%;
     display: inline;
@@ -84,43 +73,47 @@
     transition: 0.53s;
 }
 
- .projetos-bloco-item {
-
-    padding: 0% 0% 2% 1.5%;
+.destaques {
+   
+    color: green;
 }
 
- .projetos-bloco {
+ .destaques:hover {
+   
+    color: lightblue;
+    cursor: pointer;
+}
+
+.imagem-sobre {
+  	  
+   display: inline-block;
+   width: 220px;
+   height: 215px;
+   padding: 0% 1.6% 0% 0%;
+   float: left;
+}
+
+ .imagem-sobre:hover {
+
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.projetos-bloco {
 
     border: solid;
     border-width: 3px;
 }
 
+.projetos-bloco-item {
+
+    padding: 0% 0% 2% 1.5%;
+}
+
  #projetos-paragrafo {
 
     margin: 3% 2% 4% 1%;
-}
-
-  #habilidades, #projetos, #sobre, #contato {
-
-    padding: 1.2% 2.3% 1.4% 2.3%;
- }
- 
- .menu {
- 
-     position: fixed;
- }
- 
- .fólio1 {
- 
- 	font-size: 27px;
- 	margin: 5% 0% 8% 2%; 		
- 	}
-
- .fólio2 {
-	
-	margin: 5% 0% 2% -1%;
-	font-size: 27px;
-	color: lightgreen;
 }
 
  .portfólio-background {  
@@ -156,6 +149,29 @@
 
     border: 2.8px solid rgb(0, 191, 255);
 }
+
+  #habilidades, #projetos, #sobre, #contato {
+
+    padding: 1.2% 2.3% 1.4% 2.3%;
+ }
+ 
+ .menu {
+ 
+     position: fixed;
+ }
+ 
+ .fólio1 {
+ 
+ 	font-size: 27px;
+ 	margin: 5% 0% 8% 2%; 		
+ 	}
+
+ .fólio2 {
+	
+	margin: 5% 0% 2% -1%;
+	font-size: 27px;
+	color: lightgreen;
+} 
 
 .habilidades-itens-barra {
    
@@ -198,8 +214,6 @@
     transition: 0.4s;
 }
 
- 
-
  .primeira-div {
    
     background: url(ImagemDeFundo1.jpg);
@@ -222,8 +236,6 @@
     justify-content: center;
 }
 
- 
-
  .projetos-bloco-imagem {
    
     width: 90px;
@@ -233,21 +245,7 @@
     float: left;
 }
 
- .imagem-sobre {
-  	  
-   display: inline-block;
-   width: 220px;
-   height: 215px;
-   padding: 0% 1.6% 0% 0%;
-   float: left;
-}
-
- .imagem-sobre:hover {
-
-    transition: 0.5s;
-    transform: scale(1.1);
-    cursor: pointer;
-}
+ 
 
  h2 {
 
