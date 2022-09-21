@@ -84,6 +84,25 @@
     cursor: pointer;
 }
 
+ #habilidades, #projetos, #sobre, #contato {
+
+    padding: 1.2% 2.3% 1.4% 2.3%;
+ }
+
+#habilidades {
+   
+    height: 90%;
+    width: 80%;
+    font-size: 90%;
+}
+
+ .habilidades-itens {
+   
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
 .imagem-sobre {
   	  
    display: inline-block;
@@ -98,6 +117,35 @@
     transition: 0.5s;
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.portfólio-background {  
+  
+    background-color: green;
+    position: fixed;
+    padding-top: 0.7%;
+    width: 100%;
+    height: 4.3%;   
+    }
+
+.portfólio-background-navegator-item {
+
+    color: black;
+    margin: 1% 0% 1% 0%;
+    font-size: 23.0px;
+    padding-left: 10%;
+}
+
+.portfólio-background-navegator-item:hover {
+
+    color: #0786f8;
+    transition: 0.5s;
+ }
+
+.portfólio-background-navegator {
+	
+	display: inline-flex;
+	margin-left: 10%%;	
 }
 
 .projetos-bloco {
@@ -116,45 +164,11 @@
     margin: 3% 2% 4% 1%;
 }
 
- .portfólio-background {  
-  
-    background-color: green;
-    position: fixed;
-    padding-top: 0.7%;
-    width: 100%;
-    height: 4.3%;   
-    }
-    
- .portfólio-background-navegator-item:hover {
-
-    color: #0786f8;
-    transition: 0.5s;
- }
-
- .portfólio-background-navegator-item {
-
-    color: black;
-    margin: 1% 0% 1% 0%;
-    font-size: 23.0px;
-    padding-left: 10%;
-}
-
-.portfólio-background-navegator {
-	
-	display: inline-flex;
-	margin-left: 10%%;	
-}
-
  #projetos, #sobre, #contato {
 
     border: 2.8px solid rgb(0, 191, 255);
 }
 
-  #habilidades, #projetos, #sobre, #contato {
-
-    padding: 1.2% 2.3% 1.4% 2.3%;
- }
- 
  .menu {
  
      position: fixed;
@@ -164,7 +178,7 @@
  
  	font-size: 27px;
  	margin: 5% 0% 8% 2%; 		
- 	}
+ }
 
  .fólio2 {
 	
@@ -199,8 +213,6 @@
     color: green;
 }
 
-
-
  .projetos-botão {
 
     margin: 0% 0% 0% 74%;
@@ -222,20 +234,6 @@
     border: solid 3.6px rgb(0, 191, 255);
 }
 
- #habilidades {
-   
-    height: 90%;
-    width: 80%;
-    font-size: 90%;
-}
-
- .habilidades-itens {
-   
-    font-size: 25px;
-    align-items: center;
-    justify-content: center;
-}
-
  .projetos-bloco-imagem {
    
     width: 90px;
@@ -244,8 +242,6 @@
     padding: 1px 15px 8px 12px;
     float: left;
 }
-
- 
 
  h2 {
 
@@ -256,7 +252,6 @@
     
     font-weight: bold;
 }
-
 
  p {
    
