@@ -13,4 +13,5 @@ function lightMode(){
 	document.getElementById('body-darkMode').style.color = "Black"
 	var input = document.getElementById("dark-mode")
 	input.setAttribute("onclick", "darkMode()")
+	
 }

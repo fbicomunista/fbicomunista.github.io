@@ -1,0 +1,27 @@
+
+@media (min-width: 788px){
+
+    #sobre {
+
+        padding: 0% 2% 3% 3%;
+    }
+
+#botão-especial, .projetos-botão {
+	
+	padding-left: 15% 
+
+}
+
+.projetos-imagem {
+   
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.imagem-sobre {
+
+	display: inline-block;
+    max-width: 220px;
+    max-height: 230px;
+    padding: 0% 1.6% 2% 0%;
+}}

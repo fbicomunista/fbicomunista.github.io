@@ -26,7 +26,7 @@
 
 #contato-icone, .contato-texto {
    
-    font-size: 118%;
+    font-size: 120%;
 }
 
 #contato-icone {
@@ -49,7 +49,9 @@
 
 .contato-titulo {
 
+	font-size: 38px; 
     padding: 0% 0% 0% 0%;
+
 }
 
  .contato-paragrafo {
@@ -125,7 +127,7 @@
     border: solid 3.1px black;
     position: fixed;
     width: 98.2%;
-    height: 4%;   
+    height: 4.5%;   
     }
 
 .portfólio-background-navegator-item {
