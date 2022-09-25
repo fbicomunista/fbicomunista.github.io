@@ -118,12 +118,12 @@ a {
    display: inline-flex;
    position: fixed;
    width: 98.3%;
-   height: 7%;   
+   height: 6,9%;   
 }
 
 .portfólio-background-navegator {
 	
-   font-size: 24px;
+   font-size: 19px;
    color: black;
    margin: 0.3% 0% 0% 30%;
    justify-content: space-around;
