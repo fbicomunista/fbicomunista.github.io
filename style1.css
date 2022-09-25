@@ -1,109 +1,93 @@
 
- a {
+a {
     
-    text-decoration: none;
+   text-decoration: none;
 }
  
 #body-darkMode {
 
-    background-color: rgb(240, 250, 255);
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+   background-color: rgb(240, 250, 255);
+   visibility: visible;
+   opacity: 1;
+   transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;
 }
 
 #botão-especial {
 
-    margin-left: 59%;
+   margin-left: 74%;
 }
 
- #contato {
+#contato {
    
-    background: url(ImagemDeFundo3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
+   background-image: url(ImagemDeFundo2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white;
 }
 
-#contato-icone, .contato-texto {
+.contato-icone, .contato-texto {
    
-    font-size: 120%;
-}
-
-#contato-icone {
-
-    padding: 0% 0.4%;
-    font-size: 127%;
-}
-
- #contato-icone:hover {
-   
-    cursor: pointer;
-    font-size: 150%;
-    transition: 0.6s;
+   font-size: 15%;
 }
 
 .contato-texto {
 
-    padding: 2% 0%;
+   padding: 2% 0%;
 }
 
 .contato-titulo {
 
 	font-size: 38px; 
-    padding: 0% 0% 0% 0%;
-
+   padding: 0% 0% 0% 0%;
 }
 
- .contato-paragrafo {
+.contato-paragrafo {
 
-    padding: 2% 0% 2% 80%;
-    color: white;
-    font-weight: bold;
+   color: white;
+   font-size: 25px;
+   font-weight: bold;
+   padding: 2% 0% 2% 40%;
 }
 
 #dark-mode {
    
-    margin: 1% 45% 1% 45%;
-    display: inline;
-    font-size: 110%;
+   margin: 1% 45% 1% 45%;
+   display: inline;
+   font-size: 40px;
+   cursor: pointer;
 }
 
- #dark-mode:hover {
+#dark-mode:hover {
 
-    color: yellow;
-    cursor: pointer;
-    transition: 0.53s;
+   color: yellow;
+   transition: 0.53s;
 }
 
 .destaques {
    
-    color: green;
+   color: green;
 }
 
- .destaques:hover {
+.destaques:hover {
    
-    color: lightblue;
-    cursor: pointer;
+   color: lightblue;
+   cursor: pointer;
 }
 
- #habilidades, #projetos, #sobre, #contato {
+#habilidades, #projetos, #sobre, #contato {
 
-    padding: 1.2% 2.3% 1.4% 2.3%;
- }
+   padding: 0% 3%;
+}
 
 #habilidades {
    
-    height: 90%;
-    width: 80%;
-    font-size: 90%;
+   height: 90%;
+   width: 95%;
 }
 
- .habilidades-itens {
+.habilidades-titulo, .projetos-titulo, .sobre-titulo, .contato-titulo, {
    
-    font-size: 25px;
-    align-items: center;
-    justify-content: center;
+   font-size: 20px;
 }
 
 .imagem-sobre {
@@ -115,153 +99,159 @@
    float: left;
 }
 
- .imagem-sobre:hover {
+.imagem-sobre:hover {
 
-    transition: 0.5s;
-    transform: scale(1.1);
-    cursor: pointer;
+   transition: 0.5s;
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+.menu {
+ 
+   position: fixed;
 }
 
 .portfólio-background {  
   
-    background-color: green;
-    border: solid 3.1px black;
-    position: fixed;
-    width: 98.2%;
-    height: 4.5%;   
-    }
-
-.portfólio-background-navegator-item {
-
-    color: black;
-    margin-left: 21px;
-    justify-items: space-around;
-    font-size: 21px;
-    padding-left: 10%;
-
+   background-color: green;
+   border: solid 2.9px black;
+   display: inline-flex;
+   position: fixed;
+   width: 98.3%;
+   height: 7%;   
 }
-
-.portfólio-background-navegator-item:hover {
-
-    color: #0786f8;
-    transition: 0.5s;
- }
 
 .portfólio-background-navegator {
 	
-	display: inline-flex;
-	margin-left: 10%%;	
+   font-size: 24px;
+   color: black;
+   margin: 0.3% 0% 0% 30%;
+   justify-content: space-around;
+}
+
+.portfólio-background-navegator:hover {
+
+   color: green;
+}
+
+.portfólio-background-navegator-item {
+
+   margin-left: 40px;
 }
 
 .projetos-bloco {
 
-    border: solid;
-    border-width: 3px;
+   border: solid;
+   border-width: 3px;
+   padding: 0% 1.8%;
+}
+
+.projetos-bloco-titulo {
+
+   font-size: 34px;
 }
 
 .projetos-bloco-item {
 
-    padding: 0% 0% 2% 1.5%;
+   padding: 0% 0% 2% 1.5%;
 }
 
- #projetos-paragrafo {
+.projetos-bloco-botão {
 
-    margin: 3% 2% 4% 1%;
+   margin: 0% 0% 0% 74%;
+   color: rgb(108, 190, 90);
+   border: 4px thin black;
 }
 
- #projetos, #sobre, #contato {
+.projetos-bloco-botão:hover {
 
-    border: 2.8px solid rgb(0, 191, 255);
+   color: blue;
+   transition: 0.4s;
 }
 
- .menu {
- 
-     position: fixed;
- }
+.projetos-bloco-imagem {
+   
+   width: 90px;
+   height: 90px;
+   display: inline-flex;
+   padding: 1px 15px 8px 12px;
+   float: left;
+}
 
- .fólio1, .fólio2 {
+.projetos-bloco-imagem:hover {
 
- 	font-size: 27px;
- }
- 
- .fólio1 {
- 
- 	padding: 10% 0% 8% 2%; 		
- }
+   transition: 0.5s;
+   transform: scale(1.1);
+   cursor: pointer;   
+}
 
- .fólio2 {
+#projetos-bloco-paragrafo {
+
+   margin: 3% 2% 4% 1%;
+
+}
+
+#projetos, #sobre, #contato {
+
+   border: 2.8px solid rgb(0, 191, 255);
+}
+
+span {
+    
+   font-weight: bold;
+}
+
+span:hover {
+
+   color: green;
+   cursor: pointer;
+}
+
+.primeira-div {
+   
+   background: url(ImagemDeFundo1.jpg);
+   background-position: 40% 40%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: solid 3.4px green;
+}
+
+.fólio1, .fólio2 {
+
+ 	font-size: 26px;
+}
+ 
+.fólio1 {
+
+   margin-bottom: 20%;
+}
+
+.fólio2 {
 	
-	padding: 10% 0% 2% -10%;
 	color: lightgreen;
 } 
 
-.habilidades-itens-barra {
+.efeito {
+
+   font-size: 23px;
+}
+
+.efeito:click {
    
-    display: block; 
-    width: 80%;
-    padding-rigth: 1%;
+   transition: 0.25s;
+   cursor: pointer;
+   color: green;
 }
 
- .habilidades-itens:hover {
-
-    font-size: 120%;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
- .efeito {
-
-    font-size: 21.5px;
-}
-
- .efeito:hover {
+.habilidades-item-barra {
    
-    transition: 0.25s;
-    cursor: pointer;
-    color: green;
+   display: block; 
+   width: 90%;
+   padding-rigth: 1%;
 }
 
- .projetos-botão {
-
-    margin: 0% 0% 0% 74%;
-    color: rgb(108, 190, 90);
-    border: 4px thin black;
-}
-
- .projetos-botão:hover {
-
-    color: blue;
-    transition: 0.4s;
-}
-
- .primeira-div {
+p {
    
-    background: url(ImagemDeFundo1.jpg);
-    background-position: 40% 40%;
-    background-repeat: no-repeat;
-    border: solid 3.4px rgb(0, 191, 255);
-}
-
- .projetos-bloco-imagem {
-   
-    width: 90px;
-    height: 90px;
-    display: inline-flex;
-    padding: 1px 15px 8px 12px;
-    float: left;
-}
-
- h2 {
-
-    font-size: 35px;
-}
-
- span {
-    
-    font-weight: bold;
-}
-
- p {
-   
-    font-size: 20.76px;
+   display: block;
+   font-size: 21.76px;
 }
