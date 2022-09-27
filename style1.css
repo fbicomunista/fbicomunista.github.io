@@ -61,6 +61,17 @@ a {
    cursor: pointer;
 }
 
+ul {
+
+   margin-left: 42px;
+}
+
+li {
+
+   display: inline;
+   margin-left: 40px;
+}
+
 #habilidades {
    
    height: 90%;
@@ -108,7 +119,7 @@ a {
    border: solid 2.8px black;
    display: inline-flex;
    position: fixed;
-   width: 92%;
+   width: 100%;
    height: 6%;   
 }
 
