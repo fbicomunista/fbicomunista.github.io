@@ -3,31 +3,12 @@ a {
     
    text-decoration: none;
 }
- 
-#body-darkMode {
-
-   background-color: rgb(240, 250, 255);
-   visibility: visible;
-   opacity: 1;
-   transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s;
-}
-
-#botão-especial {
-
-   margin-left: 74%;
-}
 
 #contato {
    
    background-image: url(ImagemDeFundo2.jpg);
-   background-size: cover;
    background-repeat: no-repeat;
-   color: white;
-}
-
-.contato-icone, .contato-texto {
-   
-   font-size: 15%;
+   background-size: cover;
 }
 
 .contato-texto {
@@ -37,14 +18,21 @@ a {
 
 .contato-titulo {
 
-	font-size: 38px; 
-   padding: 0% 0% 0% 0%;
+	font-size: 38px;
+   color: white; 
+}
+
+.contato-icone {
+
+   font-size: 127%;
+   color: white;
+   padding-left: 0.5%;
 }
 
 .contato-paragrafo {
 
    color: white;
-   font-size: 25px;
+   font-size: 23px;
    font-weight: bold;
    padding: 2% 0% 2% 40%;
 }
@@ -52,14 +40,13 @@ a {
 #dark-mode {
    
    margin: 1% 45% 1% 45%;
-   display: inline;
-   font-size: 40px;
-   cursor: pointer;
+   font-size: 45px;
 }
 
 #dark-mode:hover {
 
    color: yellow;
+   cursor: pointer;
    transition: 0.53s;
 }
 
@@ -74,21 +61,25 @@ a {
    cursor: pointer;
 }
 
-#habilidades, #projetos, #sobre, #contato {
-
-   padding: 0% 3%;
-}
-
 #habilidades {
    
    height: 90%;
-   width: 95%;
+   width: 97.3%;
+   background-image: url(ImagemDeFundo1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: solid 3.4px;
 }
 
-.habilidades-titulo, .projetos-titulo, .sobre-titulo, .contato-titulo, {
-   
-   font-size: 20px;
+#habilidades, #projetos, #sobre, #contato {
+
+    padding: 1.2% 0% 1.4% 2%;
 }
+
+.habilidades-titulo {
+
+   font-size: 40px;
+} 
 
 .imagem-sobre {
   	  
@@ -101,7 +92,7 @@ a {
 
 .imagem-sobre:hover {
 
-   transition: 0.5s;
+   transition: 0.4s;
    transform: scale(1.1);
    cursor: pointer;
 }
@@ -114,41 +105,46 @@ a {
 .portfólio-background {  
   
    background-color: green;
-   border: solid 2.9px black;
+   border: solid 2.8px black;
    display: inline-flex;
    position: fixed;
-   width: 98.3%;
-   height: 6,9%;   
+   width: 92%;
+   height: 6%;   
 }
 
 .portfólio-background-navegator {
 	
-   font-size: 19px;
+   font-size: 28px;
    color: black;
-   margin: 0.3% 0% 0% 30%;
+   margin: 1% 0% 0% 30%;
    justify-content: space-around;
+}
+
+.projetos-titulo {
+
+   font-size: 45px;
 }
 
 .portfólio-background-navegator:hover {
 
-   color: green;
+   color: lightgreen;
 }
 
 .portfólio-background-navegator-item {
 
-   margin-left: 40px;
 }
 
 .projetos-bloco {
 
-   border: solid;
-   border-width: 3px;
-   padding: 0% 1.8%;
+   padding: 0% 2% 0% 3%;
+   margin-right: 3%;
+   border: 4px solid lightblue;
+
 }
 
 .projetos-bloco-titulo {
 
-   font-size: 34px;
+   font-size: 33px;
 }
 
 .projetos-bloco-item {
@@ -158,15 +154,24 @@ a {
 
 .projetos-bloco-botão {
 
-   margin: 0% 0% 0% 74%;
-   color: rgb(108, 190, 90);
-   border: 4px thin black;
+   margin-left: 65%;
+   background-color: lightgreen;
+   border: 4px solid lightgreen;
+   border-radius: 5em;
+   height: 34px;
+   width: 170px;
 }
 
 .projetos-bloco-botão:hover {
 
-   color: blue;
-   transition: 0.4s;
+   background-color: transparent;
+   transition: 0.5s;
+} 
+
+.projetos-bloco-botão-link {
+
+    padding: 1% 0% 14% 14%;
+    color: blue;
 }
 
 .projetos-bloco-imagem {
@@ -188,32 +193,39 @@ a {
 #projetos-bloco-paragrafo {
 
    margin: 3% 2% 4% 1%;
-
 }
 
-#projetos, #sobre, #contato {
+#projetos, #sobre {
 
-   border: 2.8px solid rgb(0, 191, 255);
+   border-bottom: 2.8px solid green;
+   border-top: 2.8px solid green;
 }
 
-span {
-    
+.sobre-titulo {
+
+   font-size: 45px;
+}
+
+#sobre {
+
+   margin-right: 3%;
+}
+
+.efeito {
+
    font-weight: bold;
+   font-size: 25px;
 }
 
-span:hover {
+.efeito:hover {
 
    color: green;
    cursor: pointer;
 }
 
-.primeira-div {
-   
-   background: url(ImagemDeFundo1.jpg);
-   background-position: 40% 40%;
-   background-repeat: no-repeat;
-   background-size: cover;
-   border: solid 3.4px green;
+.espaço {
+
+   background-image: url();
 }
 
 .fólio1, .fólio2 {
@@ -233,7 +245,7 @@ span:hover {
 
 .efeito {
 
-   font-size: 23px;
+   font-size: 29px;
 }
 
 .efeito:click {
@@ -252,6 +264,5 @@ span:hover {
 
 p {
    
-   display: block;
-   font-size: 21.76px;
+   font-size: 27px;
 }
