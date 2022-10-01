@@ -1,93 +1,363 @@
 
- a {
+a {
     
    text-decoration: none;
+   color: lightgreen;
 }
 
- #contato {
+a:hover {
+
+   transition: 0.3s;
+   color: black;
+}
+
+#contato {
    
-   background-image: url(ImagemDeFundo3.jpg);
+   background-image: url(ImagemDeFundo2.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+   border: solid 4px black;
+   color: white;
+   margin-top: 4.5%;
+   width: 100%;
 }
 
- .contato-texto {
+.contato-endereço, .contato-icone, .contato-paragrafo {
+
+   font-weight: bold;
+}
+
+.contato-texto {
 
    padding: 2% 0%;
 }
 
- .contato-titulo {
+.contato-titulo {
 
-	font-size: 38px;
-   color: white; 
+   padding: 2.5% 0% 2.5% 2.5%;
+	font-size: 40px;
 }
 
- .contato-icone {
+.contato-icone {
 
-   font-size: 127%;
-   color: white;
-   padding-left: 0.5%;
+   font-size: 120%;
+   padding: 1% 0% 2% 2.6%;
 }
 
- .contato-paragrafo {
+.contato-paragrafo {
 
-   color: white;
-   font-size: 23px;
+   font-size: 21px;
    font-weight: bold;
-   padding: 2% 0% 2% 40%;
+   padding: 1% 2% 1% 0%;
 }
 
- #dark-mode {
+.contato-endereço {
+
+   text-align: right;
+   padding: 1% 2.5% 1% 0%;
+}
+
+#dark-mode {
    
    margin: 1% 45% 1% 45%;
    font-size: 45px;
+   color: black;
 }
 
- #dark-mode:hover {
+#dark-mode:hover {
 
    color: yellow;
    cursor: pointer;
-   transition: 0.53s;
+   transition: 0.6s;
 }
 
- .destaques {
+.efeito {
+
+   font-weight: bold;
+   font-size: 25px;
+}
+
+.efeito:hover {
    
+   transition: 0.25s;
+   cursor: pointer;
    color: green;
 }
 
- .destaques:hover {
-   
-   color: lightblue;
+.efeito {
+
+   font-weight: bold;
+   font-size: 25px;
+}
+
+ .efeito:hover {
+
+   color: green;
    cursor: pointer;
 }
 
- ul {
+ .espaço {
 
-   margin-left: 42px;
+   background-image: url();
 }
 
- li {
 
-   display: inline;
-   margin-left: 40px;
-}
-
- #habilidades {
+#habilidades {
    
-   height: 90%;
-   width: 97.3%;
+   width: 99.4%;
    background-image: url(ImagemDeFundo1.jpg);
+   padding: 10% 0% 5% 0%;
    background-size: cover;
    background-repeat: no-repeat;
    border: solid 3.4px;
 }
 
- #habilidades, #projetos, #sobre, #contato {
-
-    padding: 1.2% 0% 1.4% 2%;
-}
-
- .habilidades-titulo {
+.habilidades-titulo {
 
    font-size: 40px;
+   padding: 2% 0% 4% 2%;
 } 
+
+.habilidades-item-barra {
+   
+   display: block; 
+   width: 80%;
+   height: 1px;
+   padding: 10% 4% 0% 5%;
+}
+
+.imagem-sobre {
+     
+   display: inline-block;
+   width: 220px;
+   height: 215px;
+   padding: 0% 1.6% 0% 0%;
+   float: left;
+}
+
+.imagem-sobre:hover {
+
+   transition: 0.4s;
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+.imagem-sobre {
+     
+   display: inline-block;
+   width: 220px;
+   height: 215px;
+   padding: 0% 1.6% 0% 0%;
+   float: left;
+}
+
+.imagem-sobre:hover {
+
+   transition: 0.4s;
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+
+
+.portfólio-background {  
+  
+   background-color: green;
+   border: solid 4px black;
+   display: inline-flex;
+   position: fixed;
+   width: 99.4%;
+   height: 7%;   
+}
+
+.portfólio-background-navegator {
+   
+   font-size: 25px;
+   color: black;
+   margin: 1% 0% 0% 4%;
+}
+
+.portfólio-background-navegator:hover {
+
+   color: lightgreen;
+}
+
+#projetos {
+
+   width: 99.4%;
+   border: solid 3px black;
+}
+
+.projetos-titulo {
+
+   font-size: 50px;
+   padding-left: 4%;
+}
+
+.projetos-bloco {
+
+   border: 4px solid lightblue;
+   margin: 4% 3.5%;
+}
+
+.projetos-bloco-titulo {
+
+   font-size: 29px;
+   padding: 2% 0% 0% 2%;
+}
+
+.projetos-bloco-item {
+
+   padding: 0% 0% 2% 1.5%;
+}
+
+.projetos-bloco-botão {
+
+   background-color: lightgreen;
+   border: 4px solid lightgreen;
+   margin-right: 40%;
+   border-radius: 6em;
+   height: 34%;
+   width: 70%;
+}
+
+.projetos-bloco-botão:hover {
+
+   background-color: transparent;
+   transition: 0.5s;
+} 
+
+.projetos-bloco-imagem {
+   
+   float: left;
+   width: 140px;
+   height: 110px;
+   display: inline-flex;
+   padding: 1px 15px 8px 12px;
+}
+
+.projetos-bloco-imagem:hover {
+
+   transition: 0.5s;
+   transform: scale(1.9);
+   cursor: pointer;   
+}
+
+ .projetos-titulo {
+   
+   font-size: 50px; 
+}
+
+ .projetos-bloco-titulo {
+
+   font-size: 33px;
+}
+
+ .projetos-bloco-item {
+
+   padding: 0% 0% 2% 1.5%;
+}
+
+ .projetos-bloco-botão {
+
+   margin: 0% 0% 2% 75%;   
+   height: 34px;
+   width: 168px;
+}
+
+ .projetos-bloco-botão:hover {
+
+  background-color: transparent;
+  transition: 0.5s;
+} 
+
+ .projetos-bloco-botão-link {
+
+   padding: 2% 0% 14% 14%;
+   color: blue;
+   font-size: 27px;
+}
+
+ .projetos-bloco-imagem {
+   
+  width: 90px;
+  height: 90px;
+  display: inline-flex;
+  padding: 1px 15px 8px 12px;
+  float: left;
+}
+
+ .projetos-bloco-imagem:hover {
+
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;   
+}
+
+ #projetos-bloco-paragrafo {
+
+   margin: 3% 2% 4% 1%;
+}
+
+#projetos-bloco-paragrafo {
+
+   margin: 3% 2% 4% 1%;
+}
+
+#sobre {
+
+   border-left: 3.5px solid green;
+   width: 93%;
+   padding: 0% 0% 0% 4%;
+   margin: 3% 9% 2% 3%;
+}
+
+.sobre-titulo {
+
+   font-size: 47px;
+}
+
+.sobre-titulo {
+
+   font-size: 45px;
+}
+
+.sobre-paragrafo {
+
+  margin-bottom: 4%;
+}
+
+.fólio1, .fólio2 {
+
+ 	font-size: 26px;
+}
+ 
+.fólio1 {
+
+   margin-bottom: 20%;
+}
+
+.fólio2 {
+	
+	color: lightgreen;
+} 
+
+ul {
+
+   display: flex;
+   font-size: 29px;
+   flex-direction: row;
+}
+
+p {
+   
+   font-size: 16px;
+}
+
+li {
+
+   text-align: right;
+   list-style-type: none;
+   color: black;
+   margin: 0% 0% 3% 24%;
+}

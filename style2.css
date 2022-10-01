@@ -1,129 +1,4 @@
 
- .imagem-sobre {
-  	  
-   display: inline-block;
-   width: 220px;
-   height: 215px;
-   padding: 0% 1.6% 0% 0%;
-   float: left;
-}
-
- .imagem-sobre:hover {
-
-   transition: 0.4s;
-   transform: scale(1.1);
-   cursor: pointer;
-}
-
- .menu {
- 
-   position: fixed;
-}
-
- .portfólio-background {  
-  
-   background-color: green;
-   border: solid 2.8px black;
-   display: inline-flex;
-   position: fixed;
-   width: 100%;
-   height: 6%;   
-}
-
- .portfólio-background-navegator {
-	
-   font-size: 28px;
-   color: black;
-   margin: 1% 0% 0% 30%;
-   justify-content: space-around;
-}
-
- .projetos-titulo {
-
-   font-size: 45px;
-}
-
- .portfólio-background-navegator:hover {
-
-   color: lightgreen;
-}
-
- .projetos-bloco {
-
-   padding: 0% 2% 0% 3%;
-   margin-right: 3%;
-   border: 4px solid lightblue;
-}
-
- .projetos-bloco-titulo {
-
-   font-size: 33px;
-}
-
- .projetos-bloco-item {
-
-   padding: 0% 0% 2% 1.5%;
-}
-
- .projetos-bloco-botão {
-
-   margin-left: 45%;
-   background-color: lightgreen;
-   border: 4px solid lightgreen;
-   border-radius: 5em;
-   height: 34px;
-   width: 170px;
-}
-
- .projetos-bloco-botão:hover {
-
-   background-color: transparent;
-   transition: 0.5s;
-} 
-
- .projetos-bloco-botão-link {
-
-    padding: 1% 0% 14% 14%;
-    color: blue;
-}
-
- .projetos-bloco-imagem {
-   
-   width: 90px;
-   height: 90px;
-   display: inline-flex;
-   padding: 1px 15px 8px 12px;
-   float: left;
-}
-
- .projetos-bloco-imagem:hover {
-
-   transition: 0.5s;
-   transform: scale(1.1);
-   cursor: pointer;   
-}
-
- #projetos-bloco-paragrafo {
-
-   margin: 3% 2% 4% 1%;
-}
-
- #projetos, #sobre {
-
-   border-bottom: 2.8px solid green;
-   border-top: 2.8px solid green;
-}
-
- .sobre-titulo {
-
-   font-size: 45px;
-}
-
- #sobre {
-
-   margin-right: 3%;
-}
-
  .efeito {
 
    font-weight: bold;
@@ -161,21 +36,19 @@
    font-size: 29px;
 }
 
- .efeito:click {
+ .efeito:hover {
    
    transition: 0.25s;
    cursor: pointer;
    color: green;
 }
 
- .habilidades-item-barra {
-   
-   display: block; 
-   width: 90%;
-   padding-rigth: 1%;
-}
-
  p {
    
    font-size: 27px;
+}
+
+.habilidades-item {
+
+  padding: 0% 0% 3% 2%;
 }
