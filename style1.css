@@ -35,31 +35,31 @@ a:hover {
 .contato-titulo {
 
    padding: 2.5% 0% 2.5% 2.5%;
-	font-size: 40px;
 }
 
 .contato-icone {
 
-   font-size: 120%;
+   font-size: 140%;
    padding: 1% 0% 2% 2.6%;
 }
 
 .contato-paragrafo {
 
-   font-size: 21px;
+   font-size: 20px;
    font-weight: bold;
-   padding: 1% 2% 1% 0%;
+   padding: 6% 2% 1% 0%;
 }
 
 .contato-endereço {
 
+   margin: 4%;
    text-align: right;
    padding: 1% 2.5% 1% 0%;
 }
 
 #dark-mode {
    
-   margin: 1% 45% 1% 45%;
+   margin: 8% 45% 10% 45%;
    font-size: 45px;
    color: black;
 }
@@ -96,15 +96,14 @@ a:hover {
    cursor: pointer;
 }
 
- .espaço {
+.habilidades-titulo, .projetos-titulo, .contato-titulo, .sobre-titulo {
 
-   background-image: url();
+   font-size: 55px;
 }
-
 
 #habilidades {
    
-   width: 99.4%;
+   width: 99%;
    background-image: url(ImagemDeFundo1.jpg);
    padding: 10% 0% 5% 0%;
    background-size: cover;
@@ -114,16 +113,26 @@ a:hover {
 
 .habilidades-titulo {
 
-   font-size: 40px;
-   padding: 2% 0% 4% 2%;
+   margin-top: 15%;
+   padding: 6% 0% 15% 7%;
+} 
+
+.habilidades-item {
+
+  padding: 0% 0% 3% 4%;
+}
+
+.habilidades-item-titulo {
+
+   font-size: 25px;
 } 
 
 .habilidades-item-barra {
    
    display: block; 
-   width: 80%;
-   height: 1px;
-   padding: 10% 4% 0% 5%;
+   width: 85%;
+   height: 2px;
+   padding: 4% 4% 0% 5%;
 }
 
 .imagem-sobre {
@@ -157,8 +166,6 @@ a:hover {
    transform: scale(1.1);
    cursor: pointer;
 }
-
-
 
 .portfólio-background {  
   
@@ -166,8 +173,9 @@ a:hover {
    border: solid 4px black;
    display: inline-flex;
    position: fixed;
-   width: 99.4%;
-   height: 7%;   
+   margin: 0%;
+   width: 99%;
+   height: 13%;   
 }
 
 .portfólio-background-navegator {
@@ -185,19 +193,18 @@ a:hover {
 #projetos {
 
    width: 99.4%;
-   border: solid 3px black;
 }
 
 .projetos-titulo {
 
-   font-size: 50px;
-   padding-left: 4%;
+   padding: 6% 0% 10% 3.5%;
 }
 
 .projetos-bloco {
 
-   border: 4px solid lightblue;
-   margin: 4% 3.5%;
+   border: 4px solid green;
+   margin: 6% 6%;
+   padding: 2%;
 }
 
 .projetos-bloco-titulo {
@@ -209,155 +216,4 @@ a:hover {
 .projetos-bloco-item {
 
    padding: 0% 0% 2% 1.5%;
-}
-
-.projetos-bloco-botão {
-
-   background-color: lightgreen;
-   border: 4px solid lightgreen;
-   margin-right: 40%;
-   border-radius: 6em;
-   height: 34%;
-   width: 70%;
-}
-
-.projetos-bloco-botão:hover {
-
-   background-color: transparent;
-   transition: 0.5s;
-} 
-
-.projetos-bloco-imagem {
-   
-   float: left;
-   width: 140px;
-   height: 110px;
-   display: inline-flex;
-   padding: 1px 15px 8px 12px;
-}
-
-.projetos-bloco-imagem:hover {
-
-   transition: 0.5s;
-   transform: scale(1.9);
-   cursor: pointer;   
-}
-
- .projetos-titulo {
-   
-   font-size: 50px; 
-}
-
- .projetos-bloco-titulo {
-
-   font-size: 33px;
-}
-
- .projetos-bloco-item {
-
-   padding: 0% 0% 2% 1.5%;
-}
-
- .projetos-bloco-botão {
-
-   margin: 0% 0% 2% 75%;   
-   height: 34px;
-   width: 168px;
-}
-
- .projetos-bloco-botão:hover {
-
-  background-color: transparent;
-  transition: 0.5s;
-} 
-
- .projetos-bloco-botão-link {
-
-   padding: 2% 0% 14% 14%;
-   color: blue;
-   font-size: 27px;
-}
-
- .projetos-bloco-imagem {
-   
-  width: 90px;
-  height: 90px;
-  display: inline-flex;
-  padding: 1px 15px 8px 12px;
-  float: left;
-}
-
- .projetos-bloco-imagem:hover {
-
-  transition: 0.5s;
-  transform: scale(1.1);
-  cursor: pointer;   
-}
-
- #projetos-bloco-paragrafo {
-
-   margin: 3% 2% 4% 1%;
-}
-
-#projetos-bloco-paragrafo {
-
-   margin: 3% 2% 4% 1%;
-}
-
-#sobre {
-
-   border-left: 3.5px solid green;
-   width: 93%;
-   padding: 0% 0% 0% 4%;
-   margin: 3% 9% 2% 3%;
-}
-
-.sobre-titulo {
-
-   font-size: 47px;
-}
-
-.sobre-titulo {
-
-   font-size: 45px;
-}
-
-.sobre-paragrafo {
-
-  margin-bottom: 4%;
-}
-
-.fólio1, .fólio2 {
-
- 	font-size: 26px;
-}
- 
-.fólio1 {
-
-   margin-bottom: 20%;
-}
-
-.fólio2 {
-	
-	color: lightgreen;
-} 
-
-ul {
-
-   display: flex;
-   font-size: 29px;
-   flex-direction: row;
-}
-
-p {
-   
-   font-size: 16px;
-}
-
-li {
-
-   text-align: right;
-   list-style-type: none;
-   color: black;
-   margin: 0% 0% 3% 24%;
 }

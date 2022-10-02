@@ -1,20 +1,4 @@
 
- .efeito {
-
-   font-weight: bold;
-   font-size: 25px;
-}
-
- .efeito:hover {
-
-   color: green;
-   cursor: pointer;
-}
-
- .espaço {
-
-   background-image: url();
-}
 
  .fólio1, .fólio2 {
 
@@ -48,7 +32,250 @@
    font-size: 27px;
 }
 
-.habilidades-item {
+.projetos-bloco-botão {
 
-  padding: 0% 0% 3% 2%;
+   background-color: lightgreen;
+   border: 4px solid lightgreen;
+   margin-left: 80%;
+   border-radius: 5em;
+   height: 1%;
+   width: 20%;
+}
+
+.projetos-bloco-botão:hover {
+
+   background-color: transparent;
+   transition: 0.5s;
+} 
+
+.projetos-bloco-imagem {
+   
+   float: left;
+   width: 140px;
+   height: 110px;
+   display: inline-flex;
+   padding: 1px 15px 8px 12px;
+}
+
+.projetos-bloco-imagem:hover {
+
+   transition: 0.5s;
+   transform: scale(1.9);
+   cursor: pointer;   
+}
+
+ .projetos-titulo {
+   
+   font-size: 50px; 
+}
+
+ .projetos-bloco-titulo {
+
+   font-size: 33px;
+}
+
+ .projetos-bloco-item {
+
+   padding: 0% 0% 2% 1.5%;
+}
+
+ .projetos-bloco-botão-link {
+
+   padding: 0% 0% 24% 29%;
+   color: blue;
+   font-size: 27px;
+}
+
+ .projetos-bloco-imagem {
+   
+  width: 90px;
+  height: 90px;
+  display: inline-flex;
+  padding: 1px 15px 8px 12px;
+  float: left;
+}
+
+ .projetos-bloco-imagem:hover {
+
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;   
+}
+
+#projetos-bloco-paragrafo {
+
+   margin: 3% 2% 4% 1%;
+}
+
+span {
+
+   font-weight: bold;
+   font-size: 25px;
+}
+
+#sobre {
+
+   border-left: 3.5px solid green;
+   width: 93%;
+   padding: 0.5% 10% 0.5% 3%;
+   margin: 7% 9% 7% 3%;
+}
+
+.sobre-titulo {
+
+   font-size: 45px;
+}
+
+.sobre-paragrafo {
+
+  margin-bottom: 4%;
+}
+
+.fólio1, .fólio2 {
+
+  font-size: 26px;
+}
+ 
+.fólio1 {
+
+   margin-bottom: 20%;
+}
+
+.fólio2 {
+  
+  color: lightgreen;
+} 
+
+.projetos-bloco-botão {
+
+   background-color: lightgreen;
+   border: 4px solid lightgreen;
+   margin-left: 80%;
+   border-radius: 5em;
+   height: 1%;
+   width: 20%;
+}
+
+.projetos-bloco-botão:hover {
+
+   background-color: transparent;
+   transition: 0.5s;
+} 
+
+.projetos-bloco-imagem {
+   
+   float: left;
+   width: 140px;
+   height: 110px;
+   display: inline-flex;
+   padding: 1px 15px 8px 12px;
+}
+
+.projetos-bloco-imagem:hover {
+
+   transition: 0.5s;
+   transform: scale(1.9);
+   cursor: pointer;   
+}
+
+ .projetos-titulo {
+   
+   margin-top: 10%;
+}
+
+ .projetos-bloco-titulo {
+
+   font-size: 33px;
+}
+
+ .projetos-bloco-item {
+
+   padding: 0% 0% 2% 1.5%;
+}
+
+ .projetos-bloco-botão-link {
+
+   padding: 0% 0% 24% 29%;
+   color: blue;
+   font-size: 27px;
+}
+
+ .projetos-bloco-imagem {
+   
+  width: 90px;
+  height: 90px;
+  display: inline-flex;
+  padding: 1px 15px 8px 12px;
+  float: left;
+}
+
+ .projetos-bloco-imagem:hover {
+
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;   
+}
+
+#projetos-bloco-paragrafo {
+
+   margin: 3% 2% 4% 1%;
+   font-size: 24px;
+}
+
+span {
+
+   font-weight: bold;
+   font-size: 20px;
+}
+
+#sobre {
+
+   border-left: 3.5px solid green;
+   width: 93%;
+   padding: 0.5% 10% 0.5% 3%;
+   margin: 20% 9% 20% 3%;
+}
+
+.sobre-titulo {
+
+   font-size: 45px;
+}
+
+.sobre-paragrafo {
+
+  margin-bottom: 4%;
+}
+
+.fólio1, .fólio2 {
+
+  font-size: 26px;
+}
+ 
+.fólio1 {
+
+   margin-bottom: 20%;
+}
+
+.fólio2 {
+  
+  color: lightgreen;
+} 
+
+ul {
+
+   display: flex;
+   font-size: 29px;
+   flex-direction: row;
+}
+
+p {
+   
+   font-size: 27px;
+}
+
+li {
+
+   list-style-type: none;
+   color: black;
+   margin: 0% 0% 0% 14%;
 }
