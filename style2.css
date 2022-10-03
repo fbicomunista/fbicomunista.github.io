@@ -118,7 +118,7 @@ span {
    border-left: 3.5px solid green;
    width: 93%;
    padding: 0.5% 10% 0.5% 3%;
-   margin: 2%;
+   margin: 2% 5% 0% 5%;
 }
 
 .sobre-titulo {
@@ -231,9 +231,9 @@ span {
 #sobre {
 
    border-left: 3.5px solid green;
-   width: 93%;
+   width: 90%;
    padding: 0.5% 10% 0.5% 3%;
-   margin-left: 6%;
+   margin: 1% 5% 1% 6%;
 }
 
 .sobre-titulo {
