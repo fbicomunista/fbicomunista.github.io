@@ -36,10 +36,10 @@
 
    background-color: lightgreen;
    border: 4px solid lightgreen;
-   margin-left: 80%;
    border-radius: 5em;
    height: 1%;
-   width: 20%;
+   margin-right: 60%;
+   width: 7%;
 }
 
 .projetos-bloco-botão:hover {
@@ -64,9 +64,9 @@
    cursor: pointer;   
 }
 
- .projetos-titulo {
+.projetos-titulo {
    
-   font-size: 50px; 
+  margin-left: 6%;
 }
 
  .projetos-bloco-titulo {
@@ -118,7 +118,7 @@ span {
    border-left: 3.5px solid green;
    width: 93%;
    padding: 0.5% 10% 0.5% 3%;
-   margin: 7% 9% 7% 3%;
+   margin: 2%;
 }
 
 .sobre-titulo {
@@ -233,7 +233,7 @@ span {
    border-left: 3.5px solid green;
    width: 93%;
    padding: 0.5% 10% 0.5% 3%;
-   margin: 20% 9% 20% 3%;
+   margin-left: 6%;
 }
 
 .sobre-titulo {
@@ -277,5 +277,5 @@ li {
 
    list-style-type: none;
    color: black;
-   margin: 0% 0% 0% 14%;
+   margin: 0px 0px 6.7px 114px;
 }
